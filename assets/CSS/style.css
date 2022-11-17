@@ -66,6 +66,7 @@ li:nth-child(odd) {
   max-width: 600px;
 }
 
+/* this will be taken off through javascript to reveal the questions! */
 .invis {
   display: none;
 }
