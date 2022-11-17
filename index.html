@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="./assets/CSS/style.css">
 </head>
 <body>
-    <div class="scores"><a href="highscores.html">View highscores</a></div>
+    <div class="scores"><a href="highscores.html">View Highscores</a></div>
     <!-- timer will be programmed in script.js -->
     <div class="timer">Time: <span id="timer">0</span></div>
 
     <div class="quiz-container">
-        <div id="starting">
+        <div id="starting" class="start">
             <h1>Javascript Fundamentals Quiz</h1>
             <p>
                 Placeholder text! Press start quiz.
@@ -21,12 +21,12 @@
             <button id="start">Start Quiz</button>
         </div>
         <!-- need to add new js file to add questions -->
-        <div id="questions">
+        <div id="questions" class="invis">
             <h2 id="question-header"></h2>
             <div id="choices"></div>
         </div>
 
-        <div id="ending">
+        <div id="ending" class="invis">
             <h2>You've reached the end.</h2>
             <p>
                 Your final score is: <span id="final-score"></span>
