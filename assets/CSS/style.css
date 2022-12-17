@@ -3,14 +3,6 @@ body {
   font-size: 120%;
 }
 
-
-.stopwatch {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-
 a {
   color: #563d7c;
   text-decoration: none;
@@ -61,13 +53,12 @@ li:nth-child(odd) {
   background-color: #f3edfc;
 }
 
-.quiz-container {
+.wrapper {
   margin: 100px auto 0 auto;
   max-width: 600px;
 }
 
-/* this will be taken off through javascript to reveal the questions! */
-.invis {
+.hide {
   display: none;
 }
 
@@ -82,12 +73,16 @@ li:nth-child(odd) {
 }
 
 .feedback {
-    font-style: italic;
-    font-size: 120%;
-    margin-top: 20px;
-    padding-top: 10px;
-    color: gray;
-    border-top: 2px solid #ccc;
-  }
-  
+  font-style: italic;
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: gray;
+  border-top: 2px solid #ccc;
+}
 
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
